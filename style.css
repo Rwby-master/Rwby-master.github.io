@@ -1,0 +1,115 @@
+body{
+	background-size: 100% 1000px;
+	background-position:center top;
+	background-color: #696969;
+	background-attachment: fixed;
+	background-repeat: no-repeat ;
+	font-family: Mistral
+	}
+
+#body1{
+	background-image:url("RWBY-1.jpg");
+}
+
+.body2{
+	background-image:url("RWBY-2.png");
+}
+.black{
+	background-color: #000000
+}
+#body3{
+	background-image:url("RWBY-3.jpg");
+}
+#body4{
+	background-image:url("RWBY-4.jpg");
+}
+#body5{
+	background-image:url("RWBY-5.png");
+}
+#body6{
+	background-image:url("RWBY-5.png");
+	
+}
+h1{ text-align: center;
+	margin: 100px 510px 40px 496px;
+	background: #696969; 
+    padding: 5px; 
+    opacity: 0.7; 
+    filter: alpha(Opacity=70); 
+    color: #fff; }
+#blink1 {
+		margin: 0px 510px 5px 496px;
+		}
+
+section {
+		text-align: center;
+		}
+.img 	{
+		text-align: center;
+		}
+
+.blink1 { 
+-webkit-animation: blink1 3s linear infinite; animation: blink1 3s linear infinite; } 
+ @-webkit-keyframes blink1 { 0% { color: rgba(100, 34, 34, 1); }  50% { color: rgba(100, 34, 34, 0); }  100% { color: rgba(100, 34, 34, 1); } }
+ @keyframes blink1 { 0% { color: rgba(100, 34, 34, 1); } 50% { color: rgba(100, 34, 34, 0); } 100% { color: rgba(100, 34, 34, 1); } } 
+ @import url('https://fonts.googleapis.com/css?family=Arimo');
+.top-menu {
+  position: relative;
+  background: rgba(34,34,34,.2);
+}
+.menu-main {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.left-item {float: left;}
+.right-item {float: right;}
+.navbar-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.menu-main a {
+  text-decoration: none;
+  display: block;
+  line-height: 80px;
+  padding: 0 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  color: white;
+  transition: .3s linear;
+}
+.menu-main a:hover {background: rgba(0,0,0,.3);}
+@media (max-width: 830px) {
+.menu-main {
+  padding-top: 90px;
+  text-align: center;
+}
+.navbar-logo {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+}
+.menu-main li {
+  float: none;
+  display: inline-block;
+}
+.menu-main a {
+  line-height: normal;
+  padding: 20px 15px;
+  font-size: 16px;
+}
+}
+@media (max-width: 630px) {
+.menu-main li {display: block;}
+}
+ 
